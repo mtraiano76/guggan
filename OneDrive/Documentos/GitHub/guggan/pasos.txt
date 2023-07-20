@@ -1,0 +1,34 @@
+npm init
+npm install express
+npx express-generator --view=hbs
+npm i nodemon (para que se actualice la pagina)
+npm install bootstrap@5.2.3
+
+En package.json modificamos node por nodemon
+
+
+Formulario de contacto e recepcion de mail
+
+npm i mb5
+npm i nodemailer
+npm i dotenv
+npm install express-session
+
+archivo .env 
+
+SMTP_HOST=smtp.mailtrap.io
+SMTP_PORT=2525
+SMTP_USER=8e605ac9337015
+SMTP_PASS=0565212be39c7c
+
+app.js 
+require("dotenv").config();
+var session = require('express-session');
+
+orianos.com.ar
+SMTP_PASS=migyshe101723
+
+SMTP_HOST=cva12.toservers.com
+SMTP_PORT=26
+SMTP_USER=configuracion@pretorianos.com.ar
+SMTP_PASS=migyshe101723
