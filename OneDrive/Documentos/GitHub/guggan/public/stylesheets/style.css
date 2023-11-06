@@ -27,7 +27,7 @@ img {
 
 h1 {
   color: rgb(1, 129, 184);
-  font-weight: bold;
+  font-weight: 600;
   font-family: 'Montserrat', sans-serif;
   position: fixed;
   z-index: 101;
@@ -80,6 +80,7 @@ a.nav-enlace {
   color: rgb(1, 129, 184);
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
+  font-weight: bold;
 }
 
 
@@ -254,7 +255,7 @@ footer ul li a {
 form.formulario {
   width: 600px;
   height: 500px;
-  background-color: rgba(1, 129, 184, 0.573);
+  background-color: rgb(1, 129, 184);
   padding: 30px;
   margin: auto;
   margin-top: 60px;
@@ -293,14 +294,14 @@ form.formulario p {
 
 input {
   width: 100%;
-  background-color: rgb(152, 168, 184);
+  background: rgb(216, 218, 219);
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
   border: 1px solid rgb(90, 127, 163);
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color: white;
+  color:rgb(82, 82, 82);
 }
 
 form.formulario a {
